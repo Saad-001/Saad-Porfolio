@@ -14,7 +14,7 @@ const Home = () => {
         <div className="">
             <nav style={{backgroundColor: "rgb(0, 34, 51)"}} class="navbar container navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#"> <span className="text-white ms-5 fs-3 fw-bold">Md</span> <span className="fw-bold fs-3 text-white"> Sa'ad</span> </a>
+                    <a class="navbar-brand" href="/"> <span className="text-white ms-5 fs-3 fw-bold">Md</span> <span className="fw-bold fs-3 text-white"> Sa'ad</span> </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -57,11 +57,11 @@ const Home = () => {
                             />
                         </h2>
                         <div className="mt-5">
-                           <a href="https://www.facebook.com/mohammad.sayem.3572/" target="_blank"><FontAwesomeIcon cursor="pointer" className="fs-2 text-white me-3" icon={faFacebook} /></a>
+                           <a href="https://www.facebook.com/mohammad.sayem.3572/" target="_blank" rel="noreferrer"><FontAwesomeIcon cursor="pointer" className="fs-2 text-white me-3" icon={faFacebook} /></a>
 
-                           <a href="https://www.linkedin.com/in/md-sa-ad-a88843210/" target="_blank"><FontAwesomeIcon className="fs-2 text-white me-3" cursor="pointer" icon={faLinkedin}/></a>
+                           <a href="https://www.linkedin.com/in/md-sa-ad-a88843210/" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fs-2 text-white me-3" cursor="pointer" icon={faLinkedin}/></a>
 
-                           <a href="https://github.com/Saad-001/" target="_blank"><FontAwesomeIcon cursor="pointer" className="fs-2 text-white" icon={faGithub} /></a>
+                           <a href="https://github.com/Saad-001/" target="_blank" rel="noreferrer"><FontAwesomeIcon cursor="pointer" className="fs-2 text-white" icon={faGithub} /></a>
                         </div>
                     </div>
                 </div>
