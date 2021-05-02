@@ -75,7 +75,7 @@ const Projects = () => {
                     </div>
                 </div>
             </nav>
-           <h2 style={{color: "rgb(15, 64, 134)"}} className="mb-5 text-center fw-bold ms-5 mt-5">My Projects</h2>
+           <h2 style={{color: "rgb(15, 64, 134)"}} className="mb-5 text-center fw-bold mt-5">My Projects</h2>
             <div className="row justify-content-around">
             {
                 projectsData.map(data => <Project key={data.key} data={data}></Project>)

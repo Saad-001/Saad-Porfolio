@@ -1,4 +1,5 @@
 import { faEye } from '@fortawesome/free-regular-svg-icons';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Project.css';
@@ -15,7 +16,7 @@ const Project = ({ data }) => {
                     <p class="card-text text-white">{data.description}</p>
                     <div className="justify-content-between">
                         <a href={data.siteUrl} class="btn btn-primary me-2"><FontAwesomeIcon icon={faEye}/> Live site</a>
-                        <a href={data.codeUrl} class="btn btn-primary"><FontAwesomeIcon icon={faEye}/>Code Link</a>
+                        <a href={data.codeUrl} class="btn btn-primary"><FontAwesomeIcon icon={faCode}/> Code</a>
                     </div>
                 </div>
         </div>

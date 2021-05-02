@@ -1,6 +1,8 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 import background from '../../images/wave-haikei.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTelegramPlane } from '@fortawesome/free-brands-svg-icons';
 
 const About = () => {
 
@@ -54,7 +56,7 @@ const About = () => {
                     <input className="mb-3 form-control" type="email" name="user_email" />
                     <label className=" text-white">Message</label>
                     <textarea className="form-control" name="message" />
-                    <input className="btn btn-danger mt-4" type="submit" value="Send Message" />
+                    <input className="btn btn-danger mt-4" type="submit" value="Send Message"/>
                 </form>
             </div>
         </div>

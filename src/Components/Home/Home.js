@@ -74,7 +74,7 @@ const Home = () => {
                         </div>
                         <a href="https://drive.google.com/uc?export=download&id=1gADX_EGXkG4gI_a1ZawNVQNv5dKvG-ov" style={{ backgroundColor: "rgb(15, 64, 134)", color: "white" }} className="btn"><FontAwesomeIcon icon={faDownload} /> Get Resume</a>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 mt-3">
                         <img className="img-fluid" src={info} alt=""/>
                     </div>
                 </div>
