@@ -1,8 +1,4 @@
-import { faBootstrap, faCss3Alt, faHtml5, faJs, faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import mongo from '../../images/mongodb-2-1175137.png';
-import firebase from '../../images/google_firebase-2-512.png';
 import emailjs from 'emailjs-com';
 import background from '../../images/wave-haikei.png';
 
