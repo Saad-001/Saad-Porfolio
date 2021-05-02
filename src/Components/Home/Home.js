@@ -1,7 +1,4 @@
 import React from 'react';
-import About from '../About/About';
-import Projects from '../Projects/Projects';
-import ResumeDetail from '../ResumeDetail/ResumeDetail';
 import profilePic from '../../images/profilePic.jpg';
 import Typewriter from 'typewriter-effect';
 import Background from '../../images/wave-haikei.png';
